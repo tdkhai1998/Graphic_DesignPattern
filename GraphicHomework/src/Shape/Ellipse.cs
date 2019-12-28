@@ -22,7 +22,7 @@ namespace GraphicHomework
             int v = Math.Abs(start.Y - end.Y);
             int h = Math.Abs(start.X - end.X);
             g.DrawElipse(CenterX, CenterY, h, v);
-          
+
         }
 
     

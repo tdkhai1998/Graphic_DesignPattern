@@ -251,5 +251,18 @@ namespace GraphicHomework
                 this.TypeShape = -1;
             }
         }
+
+        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            
+            this.TypeChart = this.comboBox2.SelectedIndex + 1;
+           switch (TypeChart)
+            {
+                case 2:
+                    this.diagramFactory = new DfdDiagramFactory();break;
+                case 1:
+                    this.diagramFactory = new FcFactory(); break;
+            }
+        }
     }
 }

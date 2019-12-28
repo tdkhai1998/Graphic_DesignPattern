@@ -14,7 +14,7 @@ namespace GraphicHomework
 
         public override Block CreateStartBlock(ShapeInfo f)
         {
-            return new FcInputBlock(f);
+            return new FcStartBlock(f);
         }
     }
 }
