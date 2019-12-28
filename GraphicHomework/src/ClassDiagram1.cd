@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GraphicHomework.ShapeInfo">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\Shape\ShapeInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphicHomework.CommonGraphics">
+    <Position X="8.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAAABAAAAAAAEAAABAAAAA=</HashCode>
+      <FileName>src\Graphic\CommonGraphics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphicHomework.GDIPlusGraphic">
+    <Position X="8.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAgAAAAAAAAAAAAABAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>src\Graphic\GDI+\GDIPlusGraphic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphicHomework.Rec">
+    <Position X="0.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\Shape\Rec.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphicHomework.Shape">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>src\Shape\Shape.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="ShapeInfo" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="GraphicHomework.Line">
+    <Position X="4.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\Shape\Line.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphicHomework.CairoGraphic">
+    <Position X="7.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAgAAAAAAAAAAAAABAAAAAAAEAAABAIAAA=</HashCode>
+      <FileName>src\Graphic\Cairo\CairoGraphic.cs</FileName>
+      <NewMemberFileName>src\CairoGraphic.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphicHomework.Ellipse">
+    <Position X="2.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAgAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\Shape\Ellipse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphicHomework.GDIImageFileGraphics">
+    <Position X="9" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>src\Graphic\GDI+\GDIImageFileGraphics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphicHomework.CaroPngGraphic">
+    <Position X="5.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAEAAABAIAAA=</HashCode>
+      <FileName>src\Graphic\Cairo\CaroPngGraphic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphicHomework.Block">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\Diagram\Block.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphicHomework.Diagram">
+    <Position X="7" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\Diagram\Diagram.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Block" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="GraphicHomework.FcFactory">
+    <Position X="9.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\Diagram\FcDiagram\FcFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphicHomework.FcStartBlock">
+    <Position X="3.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\Diagram\FcDiagram\FcStartBlock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphicHomework.FcInputBlock">
+    <Position X="5.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\Diagram\FcDiagram\FcInputBlock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphicHomework.DfdDiagramFactory">
+    <Position X="1.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\Diagram\DfdDiagram\DFDiagramFactory.cs</FileName>
+      <NewMemberFileName>src\Diagram\DfdDiagram\DfDiagramFactory.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphicHomework.DFInputBlock">
+    <Position X="4.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\Diagram\DfdDiagram\DFInputBlock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphicHomework.DFStartBlock">
+    <Position X="6.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\Diagram\DfdDiagram\DFStartBlock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphicHomework.DiagramFactory">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\Diagram\DiagramFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
